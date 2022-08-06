@@ -1,0 +1,90 @@
+/* Auteur ; Yacine FALEK */
+/* fait le 20 juillet 2022 */
+
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
+
+@font-face {
+  font-family: "font-1";
+  src: url(./policy/MPLUSRounded1c-Regular.ttf)
+}
+
+/***********navigation************/
+nav {
+  overflow: hidden;
+  background-color: moccasin;
+  width: 100%;
+  opacity: 0.9;
+  position: relative;
+}
+
+header li {
+  float: right;
+  font-size: 1.9rem;
+}
+
+header li a {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 18px 15px;
+}
+
+#logo {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  font-style: italic;
+  float: left;
+}
+
+/*****************Main Picture******************/
+#mainPicture {
+  background: url(./photos/pexels_colvert.jpg) no-repeat fixed center/cover;
+  background-size: cover;
+  padding-top: 60px;
+  padding-bottom: 200px;
+  height: 400px;
+}
+
+body {
+  
+  height: 100vh;
+  /*overflow: hidden;*/
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li{
+  list-style-type: none;
+}
+
+h1 {
+  text-transform : uppercase;
+  letter-spacing: 2px;
+  font-size: 3rem;
+  color: yellow;
+  /*text-shadow: 12px 10px 0px #eeeeee;*/
+  text-align: center;
+  font-weight: bold;
+  font-family: 'M PLUS Rounded 1c', serif;
+}
+
+#intro {
+  text-transform: lowercase;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: wavy;
+  color: blue;
+}
+
+#mot_president{
+background-color: blanchedalmond;
+}
